@@ -1,10 +1,11 @@
 {
   "expo": {
-    "name": "Workouts",
-    "slug": "Workouts",
+    "name": "school_management_app_v2",
+    "slug": "school_management_app_v2",
+    "scheme": "school_management_app_v2",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/app-logo.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -24,7 +25,11 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
